@@ -1,0 +1,265 @@
+.banner-quehacer{
+    background-image: url(../img/banner-quehacer.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+.madera-top{
+    width: 100%;
+    height: 15px;
+    background-image: url(../img/header-bottom.png);
+    box-shadow: 4px 6px 13px rgba(45, 45, 45, 0.85);
+}
+.descripcion{
+    background-color: rgba(51, 51, 51, 0.89);
+    padding: 24px 30px;
+    -moz-box-shadow: inset #000000 -1px -2px 24px;
+    -webkit-box-shadow: inset #000000 -1px -2px 24px;
+    box-shadow: inset #000000 -1px -2px 24px;
+    color: #fff;
+    }
+.descripcion p{
+    font-size: 18px;
+}
+.resumen-quehacer{
+    margin-top: 31px;
+}
+.soga-quehacer-descripcion {
+    width: 255px;
+    height: 59px;
+    top: -3px;
+    position: absolute;
+    left: 20em;
+}
+.soga-quehacer-descripcion2 {
+    position: absolute;
+    bottom: -46px;
+    width: 255px;
+    height: 50px;
+    left: 20em;
+}
+
+/*=============cultura y tradicion ===============*/
+.banner-cultura{
+    background-image: url(../img/banner-cultura.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+.banner-blog{
+    background-image: url(../img/banner-blog.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+
+}
+
+.lucumo-contenido {
+    margin-top: 100px;
+}
+
+/*===================TURISMO =======================*/
+.banner-turismo{
+    background-image: url(../img/banner-turismo.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+   
+}
+#atractivos{
+    background-image: url(../img/imagenes.png);
+    width: 110px;
+    height: 64px;
+    background-position: 2px 99px;
+    margin-left: 133px;
+}
+#aventura{
+    background-image: url(../img/imagenes.png);
+    width: 49px;
+    height: 65px;
+    background-position:  2px 159px;
+    margin-left: 172px;
+}
+.tab-content{
+    background-color: rgba(51, 51, 51, 0.89);
+    padding: 17px 30px;
+    -moz-box-shadow: inset #000000 -1px -2px 24px;
+    -webkit-box-shadow: inset #000000 -1px -2px 24px;
+    box-shadow: inset #000000 -1px -2px 24px;
+}
+.nav-tabs>li.active>a::after{
+    margin-left: -10px;
+    width: 0;
+    height: 0;
+    position: relative;
+    top: 53px;
+    border: solid transparent;
+    border-width: 10px;
+    border-top-color: #969381;
+    content: '';
+    pointer-events: none;
+    right: 52px;
+}
+.tabs-top{
+    width: 100%;
+    height: 20px;
+    background-image: url(../img/header-bottom.png);
+}
+.tabs{
+    margin-top: 30px;
+}
+.atractivo-titulo{
+    color: #fff;
+    padding: 16px 1px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+}
+.parrafos{
+    color: #fff;
+    font-size: 16px;
+}
+
+
+/*===================GASTRONOMIA========================*/
+
+
+/*font-family: 'Handlee', cursive;*/
+nav.paginacion {
+    text-align: center;
+}
+.banner{
+    background-image: url(../img/banner-gastronomia.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;   
+}
+h1{
+    font-size: 70px;
+    color: #fff;
+    margin-top: 43px;
+}
+.abajo{
+    height: 20px;
+    margin-top: -30px;
+}
+
+.img-circulo{
+    margin-top: 16px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin-left: 25%;
+    border: 3px dashed white;
+}
+.resta-izquierda{
+    margin-top: 30px;
+    background-image: url(../img/background-restaurantes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 512px;
+    color: #fff;
+    background-position: center;
+}
+.titulo-resta{
+    border-bottom: 2px solid #6dba7b;
+    text-align: center;
+    font-size: 30px;
+}
+.menu-resta{
+    list-style: none;
+}
+.menu-resta li {
+    font-size: 18px;
+    font-family: 'Handlee', cursive;
+}
+.menu-resta li i{
+    font-size: 26px;
+}
+.resta-bottom{
+    width: 100%;
+    height: 20px;
+    background-image: url(../img/header-bottom.png);
+    box-shadow: 4px 5px 10px black;
+}
+.item-link a{
+    position: relative;
+    display: inline-block;
+    font-size: 19px;
+    font-family: 'Handlee', cursive;
+    text-decoration: none;
+    color: #6dba7b;
+}
+.item-link a:before {
+   content: '';
+   width: 0;
+   position: absolute;
+   height: 2px;
+   background: #6dba7b;
+   transition: 0.3s;
+   bottom: -2px;
+   left: 50%;
+   transform: translateX(-50%);
+    
+}
+.item-link a:hover:before {
+   
+  width: 100%;
+}
+
+.publicidad{
+margin-top: 30px;}
+.cm-page {
+    display: none;
+}
+
+
+
+
+
+
+
+.borde {
+    width: 242px;
+    height: 20px;
+    background-image: url(../img/imagenes.png);
+    background-position: 245px -63px;
+    margin-left: 35px;
+    position: absolute;
+    top: 46px;
+}
+
+.items-titulo-quehacer {
+    font-size: 28px;
+    font-family: 'Handlee', cursive;
+    border-bottom: 1px dashed #fff;
+}
+.carousel{
+    margin-top: 30px;
+}
+.contenido-deporte {
+    position: absolute;
+    bottom: 30%;
+    background-color: rgba(0, 0, 0, 0.55);
+    left: 10%;
+    width: 650px;
+    padding: 2px 14px;
+    height: 300px;
+}
+
+.contenido-deporte h1 {
+    margin-top: 28px;
+}
+
+.contenido-deporte p {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+}
+}
