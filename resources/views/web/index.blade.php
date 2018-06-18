@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <title>INICIO | PACHACAMAC</title>
    <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="css/estilos.css">
-<link rel="stylesheet" href="css/stylethemes.css">
-<link rel="stylesheet" href="css/hover.css">
-<link rel="stylesheet" href="shadowbox/shadowbox.css">
+<link rel="stylesheet" href="{{asset('public/front/css/bootstrap.min.css')}}">
+<link rel="stylesheet" href="{{asset('public/front/css/bootstrap-theme.min.css')}}">
+<link rel="stylesheet" href="{{asset('public/front/css/estilos.css')}}">
+<link rel="stylesheet" href="{{asset('public/front/css/stylethemes.css')}}">
+<link rel="stylesheet" href="{{asset('public/front/css/hover.css')}}">
+<link rel="stylesheet" href="{{asset('public/front/shadowbox/shadowbox.css')}}">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Owl Carousel Assets -->
-<link href="css/owl.carousel.css" rel="stylesheet">
-<link href="css/owl.theme.css" rel="stylesheet">
+<link href="{{asset('public/front/css/owl.theme.css')}}" rel="stylesheet">
+<link href="{{asset('public/front/css/owl.carousel.css')}}" rel="stylesheet">
 
 
 </head>
@@ -23,7 +23,7 @@
     <div class="container-fluid">
        <div class="row">
            <div class="col-xs-12">
-               <a href="index.php"><img src="img/logo.png" alt="Pachacamac-movil" class="logo-movil img-responsive"></a>
+               <a href="index.php"><img src="{{asset('public/front/img/logo.png')}}" alt="Pachacamac-movil" class="logo-movil img-responsive"></a> 
            </div>
        </div>
         <nav class="navbar navbar-default tamano">
@@ -44,7 +44,7 @@
                 <li><a href="quehacer.php">QUE HACER</a></li>
                 <li><a href="gastronomia.php">GASTRONOMIA</a></li>
                 <li><a href="turismo.php">TURISMO</a></li>
-                <li><a href="index.php" class="hidden-xs"><img src="img/logo.png" alt="Pachacamac" class="logo"></a></li>
+                <li><a href="index.php" class="hidden-xs"><img src="{{asset('public/front/img/logo.png')}}" alt="Pachacamac" class="logo"></a></li>
                 <li><a href="deporte.php">DEPORTE</a></li>
                 <li><a href="cultura.php">CULTURA Y TRADICIÓN</a></li>
                 <li><a href="blog.php">BLOG</a></li>
@@ -53,6 +53,7 @@
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
+        
         <div class="redessociales hidden-xs">
             <ul class="lista-redessociales">
                 <li ><a href="https://www.facebook.com/" target="_blank" class="facebook hvr-buzz"></a></li>
@@ -62,24 +63,25 @@
                 <li><a href="https://www.facebook.com/" target="_blank" class="pinterest hvr-buzz"></a></li>
             </ul>
         </div>
+        
     </div>
 </header>
     <section class="slider">
         <div class="container">
             <div class="caja-flecha-izquierda hidden-xs">         
                <div class="flecha-izquierda">
-                   <span>Que Hacer</span>
-                   <img src="img/flecha.png" alt="" >
+                   <!-- <span>Que Hacer</span> -->
+                   <img src="{{asset('public/front/img/flecha.png')}}" alt="" >
                </div>
-                 <img src="img/palito-flecha.png" class="palo-flecha img-responsive " alt="">
+                 <img src="{{asset('public/front/img/palito-flecha.png')}}" class="palo-flecha img-responsive " alt="">
             </div>
             <a href="comollegar.php">
                 <div class="caja-flecha-derecha">
                 <div class="flecha-dere">
                     <span class="texto-flecha-derecha">Como Llegar</span>
-                    <img src="img/flecha.png" alt="" class="flecha-derecha img-responsive">
+                    <img src="{{asset('public/front/img/flecha.png')}}" alt="" class="flecha-derecha img-responsive">
                 </div>
-                <img src="img/palito-flecha.png" class="palo-dere" alt="">
+                <img src="{{asset('public/front/img/palito-flecha.png')}}" class="palo-dere" alt="">
             </div>
             </a>
         </div>    
@@ -91,7 +93,7 @@
        <div class="container">
               <div class="row">
                <div class="col-md-12">
-                     <img src="img/soga-blog.png" alt=""  class="soga-blog hidden-xs hidden-sm">                    
+                     <img src="public/front/img/soga-blog.png" alt=""  class="soga-blog hidden-xs hidden-sm">                    
                       <div class="resumen-quehacer">
                           <div class="madera-top"></div>
                            <div class="descripcion">  
@@ -102,7 +104,7 @@
                                    <div id="owl-demo">
                                       <a href="detalle-evento.php">
                                           <div class="item">                
-                                          <img src="img/evento1.jpg" class="img-responsive" alt="Owl Image">
+                                          <img src="public/front/img/evento1.jpg" class="img-responsive" alt="Owl Image">
                                           <div class="item-evento">
                                               <span>30/10</span>
                                               <span>Motocross</span>
@@ -111,7 +113,7 @@
                                       </a>
                                       <a href="detalle-evento.php">
                                           <div class="item">
-                                          <img src="img/evento1.jpg" class="img-responsive" alt="Owl Image">
+                                          <img src="public/front/img/evento1.jpg" class="img-responsive" alt="Owl Image">
                                            <div class="item-evento">
                                               <span>30/10</span>
                                               <span>Motocross</span>
@@ -120,7 +122,7 @@
                                       </a>
                                       <a href="detalle-evento.php">
                                           <div class="item">
-                                          <img src="img/evento1.jpg" class="img-responsive" alt="Owl Image">
+                                          <img src="public/front/img/evento1.jpg" class="img-responsive" alt="Owl Image">
                                            <div class="item-evento">
                                               <span>30/10</span>
                                               <span>Motocross</span>
@@ -129,7 +131,7 @@
                                       </a>
                                       <a href="detalle-evento.php">
                                           <div class="item">
-                                              <img src="img/evento1.jpg" class="img-responsive" alt="Owl Image">
+                                              <img src="public/front/img/evento1.jpg" class="img-responsive" alt="Owl Image">
                                                <div class="item-evento">
                                                   <span>30/10</span>
                                                   <span>Motocross</span>
@@ -144,8 +146,10 @@
                                </div>
                                
                           </div>
+                          
                           <div class="madera-top"></div>
-                          <img src="img/soga-blog.png" alt="" class="soga-blog hidden-xs hidden-sm">
+                          <img src="public/front/img/soga-blog.png" alt="" class="soga-blog hidden-xs hidden-sm">
+                          
                    </div>
                     
               </div>               
@@ -180,12 +184,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                   <img src="img/soga-blog.png" alt="" class="soga-blog hidden-xs hidden-sm">
+                    <img src="public/front/img/soga-blog.png" alt="" class="soga-blog hidden-xs hidden-sm">
                     <h1 class="titulos">Ultimas Noticias</h1>
                 </div>
                 <div class="col-md-4 col-sm-4">                   
                     <div class="thumbnail">
-                      <img src="img/blog.jpg" alt="...">
+                      <img src="public/front/img/blog.jpg" alt="...">
                       <div class="caption">
                         <h3>Arqueologico</h3>
                           <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año</p>
@@ -195,7 +199,7 @@
                 </div>
                 <div class="col-md-4 col-sm-4">                
                     <div class="thumbnail">
-                      <img src="img/blog.jpg" alt="...">
+                      <img src="public/front/img/blog.jpg" alt="...">
                       <div class="caption">
                         <h3>Arqueologico</h3>
                         <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año</p>
@@ -206,7 +210,7 @@
                 <div class="col-md-4 col-sm-4">
                 
                     <div class="thumbnail">
-                      <img src="img/blog.jpg" alt="...">
+                      <img src="public/front/img/blog.jpg" alt="...">
                       <div class="caption">
                         <h3>Arqueologico</h3>
                         <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año</p>
@@ -255,6 +259,7 @@
                <span id="derechos">© 2016 Pachacamac Todos los Derechos Reservados</span>
            </div>
             <div class="col-md-6 col-xs-12 text-right">
+                   
                <div>
                     <ul class="social-footer">
                         <li  class="hidden-xs"><span>Siguenos en:</span></li>
@@ -266,19 +271,20 @@
                     </ul>
                </div>
             </div>
+            
         </div>
     </div>
 </footer>
 
     <?php  //include "php/script.php"?>
-    <script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="js/jquery.bootpag.min.js"></script>
-<script src="js/code.js"></script>
-<script src="shadowbox/shadowbox.js"></script>
+    <script src="{{asset('public/front/js/jquery.min.js')}}"></script>
+<script src="public/front/js/bootstrap.min.js"></script>
+<script src="public/front/js/owl.carousel.js"></script>
+<script src="public/front/js/jquery.bootpag.min.js"></script>
+<script src="public/front/js/code.js"></script>
+<script src="public/front/shadowbox/shadowbox.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCY7Y3OlgCus_BTPAGnAuCUGrBs72saGDk"></script>
-<script src="js/gmaps.js"></script>
+<script src="public/front/js/gmaps.js"></script>
 <script type="text/javascript">
         Shadowbox.init();
 </script>

@@ -72,6 +72,7 @@
     width: 58px;
     height: 65px;
     background-image: url(../img/imagenes.png);
+    /*background-image: url(../public/fron/img/imagenes.png);*/
     background-position: -160px -53px;
 }
 
@@ -92,6 +93,7 @@
 body,
 html {
     height: 100%;
+    /*background-image: url(../img/fondo.jpg);*/
     background-image: url(../img/fondo.jpg);
 }
 
