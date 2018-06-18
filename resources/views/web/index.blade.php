@@ -93,7 +93,7 @@
        <div class="container">
               <div class="row">
                <div class="col-md-12">
-                     <img src="public/front/img/soga-blog.png" alt=""  class="soga-blog hidden-xs hidden-sm">                    
+                     <img src="{{asset('public/front/img/soga-blog.png')}}" alt=""  class="soga-blog hidden-xs hidden-sm">                    
                       <div class="resumen-quehacer">
                           <div class="madera-top"></div>
                            <div class="descripcion">  
@@ -104,7 +104,7 @@
                                    <div id="owl-demo">
                                       <a href="detalle-evento.php">
                                           <div class="item">                
-                                          <img src="public/front/img/evento1.jpg" class="img-responsive" alt="Owl Image">
+                                          <img src="{{asset('public/front/img/evento1.jpg')}}" class="img-responsive" alt="Owl Image">
                                           <div class="item-evento">
                                               <span>30/10</span>
                                               <span>Motocross</span>
@@ -113,7 +113,7 @@
                                       </a>
                                       <a href="detalle-evento.php">
                                           <div class="item">
-                                          <img src="public/front/img/evento1.jpg" class="img-responsive" alt="Owl Image">
+                                          <img src="{{asset('public/front/img/evento1.jpg')}}" class="img-responsive" alt="Owl Image">
                                            <div class="item-evento">
                                               <span>30/10</span>
                                               <span>Motocross</span>
@@ -122,7 +122,7 @@
                                       </a>
                                       <a href="detalle-evento.php">
                                           <div class="item">
-                                          <img src="public/front/img/evento1.jpg" class="img-responsive" alt="Owl Image">
+                                          <img src="{{asset('public/front/img/evento1.jpg')}}" class="img-responsive" alt="Owl Image">
                                            <div class="item-evento">
                                               <span>30/10</span>
                                               <span>Motocross</span>
@@ -131,7 +131,7 @@
                                       </a>
                                       <a href="detalle-evento.php">
                                           <div class="item">
-                                              <img src="public/front/img/evento1.jpg" class="img-responsive" alt="Owl Image">
+                                              <img src="{{asset('public/front/img/evento1.jpg')}}" class="img-responsive" alt="Owl Image">
                                                <div class="item-evento">
                                                   <span>30/10</span>
                                                   <span>Motocross</span>
@@ -148,7 +148,7 @@
                           </div>
                           
                           <div class="madera-top"></div>
-                          <img src="public/front/img/soga-blog.png" alt="" class="soga-blog hidden-xs hidden-sm">
+                          <img src="{{asset('public/front/img/soga-blog.png')}}" alt="" class="soga-blog hidden-xs hidden-sm">
                           
                    </div>
                     
@@ -184,12 +184,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="public/front/img/soga-blog.png" alt="" class="soga-blog hidden-xs hidden-sm">
+                    <img src="{{asset('public/front/img/soga-blog.png')}}" alt="" class="soga-blog hidden-xs hidden-sm">
                     <h1 class="titulos">Ultimas Noticias</h1>
                 </div>
                 <div class="col-md-4 col-sm-4">                   
                     <div class="thumbnail">
-                      <img src="public/front/img/blog.jpg" alt="...">
+                      <img src="{{asset('public/front/img/blog.jpg')}}" alt="...">
                       <div class="caption">
                         <h3>Arqueologico</h3>
                           <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año</p>
@@ -199,7 +199,7 @@
                 </div>
                 <div class="col-md-4 col-sm-4">                
                     <div class="thumbnail">
-                      <img src="public/front/img/blog.jpg" alt="...">
+                      <img src="{{asset('public/front/img/blog.jpg')}}" alt="...">
                       <div class="caption">
                         <h3>Arqueologico</h3>
                         <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año</p>
@@ -210,7 +210,7 @@
                 <div class="col-md-4 col-sm-4">
                 
                     <div class="thumbnail">
-                      <img src="public/front/img/blog.jpg" alt="...">
+                      <img src="{{asset('public/front/img/blog.jpg')}}" alt="...">
                       <div class="caption">
                         <h3>Arqueologico</h3>
                         <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año</p>
