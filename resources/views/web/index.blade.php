@@ -70,7 +70,7 @@
         <div class="container">
             <div class="caja-flecha-izquierda hidden-xs">         
                <div class="flecha-izquierda">
-                   <!-- <span>Que Hacer</span> -->
+                   <span>Que Hacer</span> 
                    <img src="{{asset('public/front/img/flecha.png')}}" alt="" >
                </div>
                  <img src="{{asset('public/front/img/palito-flecha.png')}}" class="palo-flecha img-responsive " alt="">
