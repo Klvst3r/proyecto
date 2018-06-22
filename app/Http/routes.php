@@ -14,4 +14,8 @@
 Route::get('/', function () {
     return view('web.index');
 });
+
+Route::get('evento', function (){
+	return view('web.evento');
+});
  
