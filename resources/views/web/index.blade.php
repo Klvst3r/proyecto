@@ -20,7 +20,7 @@
                                       <h2 class="titulo-evento">Eventos</h2>
                                   </div>
                                    <div id="owl-demo">
-                                      <a href="detalle-evento.php">
+                                      <a href="{{url('/evento')}}">
                                           <div class="item">                
                                           <img src="{{asset('public/front/img/evento1.jpg')}}" class="img-responsive" alt="Owl Image">
                                           <div class="item-evento">
@@ -29,7 +29,7 @@
                                           </div>
                                       </div>
                                       </a>
-                                      <a href="detalle-evento.php">
+                                      <a href="{{url('/evento')}}">
                                           <div class="item">
                                           <img src="{{asset('public/front/img/evento1.jpg')}}" class="img-responsive" alt="Owl Image">
                                            <div class="item-evento">
@@ -38,7 +38,7 @@
                                           </div>
                                       </div>
                                       </a>
-                                      <a href="detalle-evento.php">
+                                      <a href="{{url('/evento')}}">
                                           <div class="item">
                                           <img src="{{asset('public/front/img/evento1.jpg')}}" class="img-responsive" alt="Owl Image">
                                            <div class="item-evento">
@@ -47,7 +47,7 @@
                                           </div>
                                       </div>
                                       </a>
-                                      <a href="detalle-evento.php">
+                                      <a href="{{url('/evento')}}">
                                           <div class="item">
                                               <img src="{{asset('public/front/img/evento1.jpg')}}" class="img-responsive" alt="Owl Image">
                                                <div class="item-evento">

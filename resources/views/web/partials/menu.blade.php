@@ -23,7 +23,7 @@
                 <li><a href="quehacer.php">QUE HACER</a></li>
                 <li><a href="gastronomia.php">GASTRONOMIA</a></li>
                 <li><a href="turismo.php">TURISMO</a></li>
-                <li><a href="index.php" class="hidden-xs"><img src="{{asset('public/front/img/logo.png')}}" alt="Pachacamac" class="logo"></a></li>
+                <li><a href="{{url('/')}}" class="hidden-xs"><img src="{{asset('public/front/img/logo.png')}}" alt="Pachacamac" class="logo"></a></li>
                 <li><a href="deporte.php">DEPORTE</a></li>
                 <li><a href="cultura.php">CULTURA Y TRADICIÓN</a></li>
                 <li><a href="blog.php">BLOG</a></li>
