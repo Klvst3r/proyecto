@@ -9,8 +9,11 @@
 
 @include('web.partials.menu')
 
-@include('web.partials.slider')
+@if(Request::is('/'))
+	@include('web.partials.slider')
+@endif
 
+@yield("jumbo")
 
 
 @yield("contenido")

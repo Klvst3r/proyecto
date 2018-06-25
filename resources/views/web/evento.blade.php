@@ -1,5 +1,21 @@
 @extends("web.partials.plantilla")
 
+@section("jumbo")
+	
+	<div class="jumbotron banner">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1><i class="fa fa-clock-o"></i> Eventos</h1>
+                 </div>
+            </div>
+          </div>        
+    </div>
+    <div class="madera-bottom abajo"></div>
+
+	
+@endsection
+
 @section('contenido')
 
 	 <div class="container">       
@@ -10,7 +26,7 @@
                        <div class="descripcion">  
                            <div class="row">
                                <div class="col-md-6">
-                                    <a href="img/evento1.jpg" rel="shadowbox"><img src="img/evento1.jpg" class="img-responsive" alt=""></a>
+                                    <a href="img/evento1.jpg" rel="shadowbox"><img src="{{asset('public/front/img/evento1.jpg')}}" class="img-responsive" alt=""></a>
                                </div>
                                <div class="col-md-6">
                                     <h2>Evento de motocross</h2>
@@ -55,7 +71,7 @@
                 <div class="row">
                     <div class="col-md-12 hidden-sm hidden-xs">
                         <div class="publicidad">
-                            <img src="img/granpublicidad.jpg" class="img-responsive" alt="">                    
+                            <img src="{{asset('public/front/img/granpublicidad.jpg')}}" class="img-responsive" alt="">                    
                         </div>                                                
                     </div>
                     <div class="hidden-md hidden-lg col-xs-12 col-sm-12">
