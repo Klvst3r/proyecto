@@ -19,3 +19,5 @@
         </div>    
         <div id="pasto"></div>
     </section>
+
+    <div class="madera-bottom"></div>

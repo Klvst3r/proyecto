@@ -11,6 +11,8 @@
 
 @include('web.partials.slider')
 
+
+
 @yield("contenido")
 
 <section class="suscribirse"> 

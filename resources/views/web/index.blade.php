@@ -5,7 +5,7 @@
 
     @section("contenido")
    
-    <div class="madera-bottom"></div>
+    
     <!--=================== STAR EVENTO ============================-->
     <section class="eventos">
        <div class="container">
