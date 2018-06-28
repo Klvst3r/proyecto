@@ -19,4 +19,14 @@ proyecto/Http/Middleware
 
 Fro Console to generate middleware
 	php artisan make:middleware EdadMiddleware
+
+	Testing our middleware for edad in browser
+	OK	
+		http://localhost:8000/?edad=19
+	Wrong
+		http://localhost:8000/?edad=19
+
+		and return in browser
+			http://localhost:8000/menordeedad
+				"Eres menor de edad"
 	

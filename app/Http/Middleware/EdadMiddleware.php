@@ -15,6 +15,10 @@ class EdadMiddleware
      */
     public function handle($request, Closure $next)
     {
+        //$request captura todo tipo de peticiones get, post o session via http
+        if($request->input("edad") < 18){
+            return redirect()->to("menordeedad");
+        }
         return $next($request);
     }
 }
