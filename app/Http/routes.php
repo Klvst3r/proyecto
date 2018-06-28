@@ -21,7 +21,7 @@ Route::get('evento', function (){
  
 //Route::auth();
 Route::get("login","Auth\AuthController@getLogin");
-Route::get("logout","Auth\AuthController@getLogout");
+Route::get("logout","Auth\AuthController@logout");
 Route::post("login","Auth\AuthController@postLogin");
 
 //Route::get('/home', 'HomeController@index');
