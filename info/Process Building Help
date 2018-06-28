@@ -1,0 +1,19 @@
+Routhing
+https://laravel.com/docs/5.2/routing
+
+Authentication
+https://laravel.com/docs/5.2/authentication
+
+Middleware
+https://laravel.com/docs/5.2/middleware
+
+Defining Middleware
+
+To create a new middleware, use the make:middleware Artisan command:
+
+	php artisan make:middleware AgeMiddleware
+
+In the structure fo the proyect is in:
+
+proyecto/Http/Middleware
+	
