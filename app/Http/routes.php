@@ -19,3 +19,6 @@ Route::get('evento', function (){
 	return view('web.evento');
 });
  
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
