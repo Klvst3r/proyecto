@@ -7,6 +7,12 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Dashboard</div>
 
+                @if(Auth::check())
+                    Estas logeado {{Auth::user()->name}}
+                @else
+                    No estas logeado
+                @endif
+
                 <div class="panel-body">
                     You are logged in!
                 </div>
