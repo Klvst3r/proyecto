@@ -4,6 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use Illuminate\Http\Request;
+use Auth;
+//use Illuminate\Support\Facades\Auth;
+//use App\Http\Controllers\Auth;
+
+
+
 
 class AdminController extends Controller
 {
@@ -30,7 +36,9 @@ class AdminController extends Controller
     }
 
     public function getPersona(){
-        return "Hola soy una persona";
+        //recover an user
+        return Auth::user();
+        //echo 'user id: ' . Auth::user();
     }
 
 }
