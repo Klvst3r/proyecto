@@ -32,5 +32,11 @@ Fro Console to generate middleware
 
 
 Validate a middleware in a route
-				
+
+In Admin controller
+	 public function getPersona(){
+        return "Hola soy una persona";
+    }
+after in Browser
+	http://localhost:8000/admin/persona				
 	

@@ -14,7 +14,7 @@ class AdminController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('edadmayor');
+        $this->middleware('auth');
     }
 
     /**
@@ -26,4 +26,10 @@ class AdminController extends Controller
     {
         return view('home');
     }
+
+    public function getPersona(){
+        return "Hola soy una persona";
+    }
+
 }
+
