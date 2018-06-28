@@ -16,4 +16,7 @@ To create a new middleware, use the make:middleware Artisan command:
 In the structure fo the proyect is in:
 
 proyecto/Http/Middleware
+
+Fro Console to generate middleware
+	php artisan make:middleware EdadMiddleware
 	

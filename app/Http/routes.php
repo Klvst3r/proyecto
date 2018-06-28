@@ -33,6 +33,9 @@ Route::group(['middleware' => ['web']], function () {
 	Route::get('/admin', 'AdminController@index');
 });
 
+Route::get("menordeedad",function(){
+	return "Eres menor de edad";
+});
 
 
 
