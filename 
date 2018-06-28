@@ -1,0 +1,113 @@
+[33mcommit 1c966e34e43fbe7f049410615803ff5e02dc239f[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Thu Jun 28 00:58:45 2018 -0500
+
+    Finish Edad Middleware and validate in kernel
+
+[33mcommit 813479470b93cb3abddaf4ce1f2559d7ad23975e[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Thu Jun 28 00:51:43 2018 -0500
+
+    First middleware in menordeedad validation
+
+[33mcommit 60c9278b94a24ac3a0f14154d7fffdb74cf483c3[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Thu Jun 28 00:44:28 2018 -0500
+
+    Middleware to group routes
+
+[33mcommit 139b45eee5b6f97df4fa612e94cba9906223d4a0[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Thu Jun 28 00:33:35 2018 -0500
+
+    Finish of customize auth Form and Dashboard Panel with Login
+
+[33mcommit fb6360b86f29396ead3c0e2799540842acd15dc0[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Thu Jun 28 00:22:18 2018 -0500
+
+    Fix Route in logout from dashboard
+
+[33mcommit 319d7ba6c2f4c973c608fe65972b16d08e59a5cf[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Thu Jun 28 00:20:17 2018 -0500
+
+    Finish Routes and Controller to Login and Logout
+
+[33mcommit 280b2d054594a70c814119b0bcfa45ea61cf4dd2[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Thu Jun 28 00:09:50 2018 -0500
+
+    Finish Login, register and recover count Process
+
+[33mcommit 9679263e533c5591860754648234605cbc205a4c[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Wed Jun 27 19:47:53 2018 -0500
+
+    Restore Bd Backup of prolaravel BD in Database
+
+[33mcommit 6d2a2fcbbcd6724f0c67da96c069170b0acae5e2[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Wed Jun 27 19:33:48 2018 -0500
+
+    Create Autentication form files
+
+[33mcommit 0e2d6ee6a4bcb7e73561220b99cca89e2425139d[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Mon Jun 25 11:16:29 2018 -0500
+
+    Extend page evento and use function url
+
+[33mcommit dc7771d71a365f825dba8ea4cb3cefdc4b816e92[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Mon Jun 25 11:11:01 2018 -0500
+
+    Fix Evento Page in Slider and add a jumbotron for evento
+
+[33mcommit 9fac3eaf950606a49f41ffd7dce052919374cd90[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Mon Jun 25 10:13:55 2018 -0500
+
+    Create Evento Page and change div of madera-abajo
+
+[33mcommit 4f3dabfad3753fd543ce3a50a790ae35f2d005e4[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Fri Jun 22 17:54:57 2018 -0500
+
+    Include desig in resources of detalle-evento template
+
+[33mcommit 3706d177bec75d2b94923c226f16e470c2559e53[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Fri Jun 22 10:51:14 2018 -0500
+
+    Add @extends and @include to manage templates
+
+[33mcommit da7bded129534945f710efa047e7a7504087c518[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Thu Jun 21 14:03:55 2018 -0500
+
+    Add new variables with asset
+
+[33mcommit 1448761c059bf059a8360dec36fdf6277c460bfc[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Mon Jun 18 20:03:09 2018 -0500
+
+    Finish of vinculate files of url in the site
+
+[33mcommit cc56e1dd3968428d3ab85fa39fed32add0ff38c3[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Mon Jun 18 10:55:31 2018 -0500
+
+    Finish of load vars of images
+
+[33mcommit 2149adfd9436ce6e70791bf61a098d53edd38c98[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Mon Jun 18 09:56:16 2018 -0500
+
+    PAge ok and begin var of images
+
+[33mcommit 7c5811dd650b9e503594bd6a9e30cb2e0ea9a571[m
+Author: klvst3r <klvst3r@gmail.com>
+Date:   Tue Jun 12 12:09:51 2018 -0500
+
+    Prolaravel

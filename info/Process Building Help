@@ -29,4 +29,8 @@ Fro Console to generate middleware
 		and return in browser
 			http://localhost:8000/menordeedad
 				"Eres menor de edad"
+
+
+Validate a middleware in a route
+				
 	

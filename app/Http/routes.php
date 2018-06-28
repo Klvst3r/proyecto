@@ -13,7 +13,7 @@
 /**
  * Rou Group
  */
-Route::group(['middleware' => ['web',"edadmayor"]], function () {
+Route::group(['middleware' => ['web']], function () {
 
     Route::get('/', function () {
     	return view('web.index');
@@ -30,12 +30,12 @@ Route::group(['middleware' => ['web',"edadmayor"]], function () {
 
 	//Route::get('/home', 'HomeController@index');
 	//Change home for admin
-	Route::get('/admin', 'AdminController@index');
+	Route::controller('/admin', 'AdminController');
 });
 
-Route::get("menordeedad",function(){
+Route::get("menordeedad",function(){	
 	return "Eres menor de edad";
-});
+})->middleware("auth");
 
 
 
