@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use Illuminate\Http\Request;
-use Auth;
-//use Illuminate\Support\Facades\Auth;
+//use Auth;
+use Illuminate\Support\Facades\Auth;
 //use App\Http\Controllers\Auth;
 
 
@@ -39,6 +39,9 @@ class AdminController extends Controller
         //recover an user
         //return Auth::user();
         //echo 'user id: ' . Auth::user();
+        if(Auth::guest()){
+            return "No Estas logeado";
+        }
         return "Hola soy una persona";
     }
 
