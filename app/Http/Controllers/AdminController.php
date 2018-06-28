@@ -38,12 +38,12 @@ class AdminController extends Controller
     public function getPersona(){
         //recover an user
         //return Auth::user();
-        echo 'user name: ' . Auth::user()->name;
+        //echo 'user name: ' . Auth::user()->name;
         
-        /*if(Auth::guest()){
+        if(Auth::guest()){
             return "No Estas logeado";
         }
-        return "Hola soy una persona";*/
+        return "Hola soy una persona";
     }
 
 }
