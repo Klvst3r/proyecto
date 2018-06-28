@@ -8,7 +8,7 @@
                 <div class="panel-heading">Dashboard</div>
 
                 @if(Auth::check())
-                    Estas logeado {{Auth::user()->name. ' - ' . Auth::user()->email}}
+                    Estas logeado {{Auth::user()->name. ' - ' . Auth::user()->email . ' - ' . Auth::user()->id}}
                 @else
                     No estas logeado
                 @endif
