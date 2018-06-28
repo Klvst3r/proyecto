@@ -20,7 +20,10 @@ Route::get('evento', function (){
 });
  
 //Route::auth();
+Route::get("login","Auth\AuthController@getLogin");
+Route::get("logout","Auth\AuthController@getLogout");
+Route::post("login","Auth\AuthController@postLogin");
 
 //Route::get('/home', 'HomeController@index');
 //Change home for admin
-
+Route::get('/admin', 'AdminController@index');
